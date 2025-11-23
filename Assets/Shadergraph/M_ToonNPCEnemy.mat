@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ToonPlayer
+  m_Name: M_ToonNPCEnemy
   m_Shader: {fileID: -6465566751694194690, guid: a7f36d76138c89b4fa9766ccf2eacedd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,16 +42,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientIntensity: 0.2
+    - _AmbientIntensity: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimLightPower: 5
+    - _RimLightPower: 6
     m_Colors:
-    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Tint: {r: 0.5660378, g: 0.2144211, b: 0.14150944, a: 0}
+    - _RimLightColor: {r: 0.16037738, g: 0.13541298, b: 0.13541298, a: 0}
+    - _Tint: {r: 1.8443025, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &7706744775314637449
+--- !u!114 &5136887503709291058
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

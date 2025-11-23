@@ -145,7 +145,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive_Color: {r: 0.2, g: 0.2, b: 0.2, a: 0}
-    - _PlayerPosition: {r: -73.26803, g: 1.14, b: -13.072689, a: 0}
+    - _PlayerPosition: {r: -62.749245, g: 1.2233334, b: -27.238934, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
