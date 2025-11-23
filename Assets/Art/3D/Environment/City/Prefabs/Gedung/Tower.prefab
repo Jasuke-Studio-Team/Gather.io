@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6747215619073844857}
   - component: {fileID: 1828094171993343498}
   - component: {fileID: 8335848252098015027}
+  - component: {fileID: 727812294358900047}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566721565401481789}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: 20, y: 0, z: -0.00000023841858}
-  m_LocalScale: {x: 1264.2625, y: 1264.2625, z: 1264.2625}
+  m_LocalScale: {x: 1264.2625, y: 1264.2623, z: 1264.2623}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &1828094171993343498
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -86,3 +87,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &727812294358900047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566721565401481789}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.020373978, y: 0.031214083, z: 0.036207855}
+  m_Center: {x: -0.0006478545, y: -0.003083122, z: 0.017985266}
